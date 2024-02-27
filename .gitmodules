@@ -1,0 +1,3 @@
+[submodule "submodules/cc3d-steppables"]
+	path = submodules/cc3d-steppables
+	url = git@github.com:lhillma/cc3d-steppables.git
