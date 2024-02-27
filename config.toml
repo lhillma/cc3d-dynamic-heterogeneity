@@ -1,0 +1,9 @@
+[sim]
+box_size = 200
+steps = 10000
+active_fraction = 0.5
+
+[cell]
+diameter = 40
+propensity = 200
+nucleus_size_ratio = 0.56
