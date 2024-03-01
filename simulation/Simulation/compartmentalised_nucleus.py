@@ -51,6 +51,9 @@ class RandomFilter(RandomFractionFilter):
         super().__init__(*args, **kwargs)
         self.path = path
 
+    def finish(self):
+        self.on_stop()
+
     def on_stop(self):
         import numpy as np
 
